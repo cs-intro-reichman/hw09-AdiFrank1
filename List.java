@@ -67,7 +67,7 @@ public class List {
 
             if (temp.cp.chr == chr)
             {
-                return count;
+                return count-1;
             }
 
             temp = temp.next;
