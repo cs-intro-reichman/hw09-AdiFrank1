@@ -133,7 +133,7 @@ public class LanguageModel {
             String newWindow = initialText.substring(initialText.length()-windowLength,initialText.length());
             int i =initialText.length();
 
-            while (initialText.length() != textLength)
+            while (initialText.length() != textLength+windowLength)
             {
                 if (!CharDataMap.containsKey(newWindow))
                 {
